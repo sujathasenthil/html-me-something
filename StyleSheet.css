@@ -1,0 +1,28 @@
+<style type="text/css">
+    h1  {
+       text-align: left;
+       font-size: 14pt;
+       color: #000099;
+       margin-bottom: 5px;
+        }
+    h2 {
+       font-family: "Franklin Gothic Demi", serif;
+       font-size: 10pt;
+       font-weight: normal;
+       text-align: justify;
+       }
+ .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    
+
+ </style>
